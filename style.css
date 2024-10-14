@@ -1,0 +1,96 @@
+@font-face {
+    font-family: figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+*{
+    font-family: figtree;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 522px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    padding: 24px;  
+    box-shadow: 10px 10px;
+}
+
+.illustration{
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.published-date, .course, .description, .author, .avatar, .author-name{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.category{
+    width: 82px;
+    height: auto;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 4px;
+    border-radius: 4px;
+    font-weight: 800;
+    margin-bottom: 12px;   
+}
+
+.published-date{
+    margin-top: 5px;
+}
+
+.course{
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 3px;
+}
+
+.course:hover, .course:active{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.description{
+    font: 500;
+    font-size: 18px;
+    color: hsl(0, 0%, 42%);
+    margin-top: 0;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    margin-top: 7px;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.author-name{
+    margin-left: 12px;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
