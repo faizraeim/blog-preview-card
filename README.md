@@ -45,7 +45,7 @@ Centering a div and aligning image and text in a line inside it was a challenge.
 
 ## Author
 
-- Website - [Faizey.co](https://www.faizey.co)
+- Website - [faizey.co](https://www.faizey.co)
 - Frontend Mentor - [@faizraeim](https://www.frontendmentor.io/profile/faizraeim)
 - LinkedIn - [@faizey](https://www.linkedin.com/in/faizey)
 - Twitter - [@faizraeim](https://www.twitter.com/faizraeim)

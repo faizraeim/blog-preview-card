@@ -10,8 +10,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    width: 384px;
-    height: 522px;
+    width: 354px;
+    height: 492px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -23,6 +23,7 @@
     border-radius: 20px;
     padding: 24px;  
     box-shadow: 10px 10px;
+    padding-bottom: 40px;
 }
 
 .illustration{
@@ -72,11 +73,13 @@
     align-items: center;
     font-weight: 800;
     margin-top: 7px;
+
 }
 
 .avatar{
     width: 32px;
     height: 32px;
+;
 }
 
 .author-name{
